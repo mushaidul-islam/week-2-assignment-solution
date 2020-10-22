@@ -1,0 +1,66 @@
+ * {
+  box-sizing: border-box;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+ p {
+ 	border: 1px solid black;
+ 	width: 80%;
+  	height: 80%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: grey;
+  	font-weight: bold;
+ }
+ .little-heading{
+ 	position: relative;
+ 	width: 80px;
+ 	border: 1px solid red;
+ 	margin: 15px;
+ 	background-color: pink;
+ 	text-align: center;
+  	float:right;
+ }
+h1 {
+ 	border: 1px solid black;
+ 	margin-top: 0px;
+ 	text-align: center;
+ 	background-color: grey;
+ }
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+
+ .row {
+  width: 100%;
+}
+
+ @media (min-width: 992px){
+ 	.col-desk-4{
+ 		float: left;
+ 		//border: 1px solid red;
+ 		width: 33.33%;
+ 	}
+ }
+  @media (min-width: 768px) and (max-width:991px ){
+ 	.col-tabl-6{
+ 		float: left;
+ 		//border: 1px solid red;
+ 		width: 50%;
+ 	}
+ 	.col-tabl-6-2{
+ 		float: left;
+ 		//border: 1px solid red;
+ 		width: 100%;
+ 	}
+ }
+   @media (max-width: 767px ){
+ 	.col-mobl-12{
+ 		float: left;
+ 		//border: 1px solid red;
+ 		width: 100%;
+ 	}
+ }
